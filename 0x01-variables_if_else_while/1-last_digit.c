@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: 0 success, otherwise failure
- */
+ *  * main - Entry point
+ *   * Return: 0 success, otherwise failure
+ *    */
 int main(void)
 {
 	int n;
@@ -26,5 +26,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, ldigit);
 	}
-	return (0);
+return (0);
 }
