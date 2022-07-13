@@ -19,7 +19,7 @@ void puts2(char *str)
 		if (i % 2 == 1)
 			continue;
 
-		putchar(str[i]);
+		_putchar(str[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
