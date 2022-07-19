@@ -1,7 +1,7 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- * _memset -> This memory set function 
+ * _memset -> This memory set function
  * @s: String
  * @b: a character
  * @n: an integer
