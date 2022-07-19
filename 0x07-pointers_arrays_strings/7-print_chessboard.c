@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_chessboard - Print the chessboard
+ * print_chessboard - Uses two loops to print a 2D array
  * @a: array of pieces
  *
  * Return: Nothing.
