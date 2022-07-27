@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - multiplies 2 numbers passed to it in the command line.
  * @argc:number of commandline arguments.
  * @argv:pointer to an array of commmand line arguments.
