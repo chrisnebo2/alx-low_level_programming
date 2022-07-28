@@ -1,14 +1,14 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- *  * string_nconcat - function that concatenates two strings
- *   * @s1: string one being passed
- *    * @s2: string two being passed
- *     * @n: size
- *      * Return: Always 0.
- *       */
+ * string_nconcat - function that concatenates two strings
+ * @s1: string one being passed
+ * @s2: string two being passed
+ * @n: size
+ * Return: Always 0.
+ */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
@@ -31,8 +31,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (c = 0; c < a; c++)
 		p[c] = s1[c];
+
 	for (d = 0; d < n && d < b; d++, c++)
 		p[c] = s2[d];
+
 	p[c] = '\0';
+
 	return (p);
 }
