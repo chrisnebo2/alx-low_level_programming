@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-/*
+/**
  * wrdcnt - counts the number of words in a string
  * @s: string to count
  *
@@ -26,7 +26,7 @@ int wrdcnt(char *s)
 	return (n);
 }
 
-/*
+/**
  * strtow - splits a string into words
  * @str: string to split
  * Return: pointer to an array of strings
@@ -76,7 +76,7 @@ char **strtow(char *str)
 		else
 			i++;
 
-					
-		return (w);
+
 	}
+	return (w);
 }
