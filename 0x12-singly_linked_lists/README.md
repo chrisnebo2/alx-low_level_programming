@@ -1,1 +1,2 @@
-C - Singly linked lists
+# C - Singly linked lists
+## This project contains all assignments on Singly Linked lists
