@@ -1,5 +1,5 @@
-#ifndef FILE_HOLBERTON
-#define FILE_HOLBERTON
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -23,4 +23,4 @@ void validate_elf(unsigned char *e_ident);
 unsigned int lit_to_big_endian(unsigned int x);
 void print_entry(unsigned int e_type, unsigned char *e_ident);
 
-#endif /* HOLBERTON_H */
+#endif /* MAIN_H */
